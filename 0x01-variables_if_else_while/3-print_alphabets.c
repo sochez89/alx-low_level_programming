@@ -21,4 +21,5 @@ int main(void)
 		letter2++;
 	}
 	putchar('\n');
+return (0);
 }
