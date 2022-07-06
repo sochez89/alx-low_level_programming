@@ -2,18 +2,19 @@
 
 /**
  * _abs - print absolute value of a number
- * @a: integer
+ * @a: An integer
  * Return: return absolut value of number passed through the function
  */
 
 int _abs(int a)
 {
-	if (a >  0)
+	if (a <  0)
 	{
+		a = -1 * a;
 		return (a);
 	}
 	else
 	{
-		return (a * -1);
+		return (a);
 	}
 }
