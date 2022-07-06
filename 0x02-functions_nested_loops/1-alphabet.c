@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "print_alphabet"
+#include "main.h"
+
 /**
  * print_alphabet - prototype function to print out lower case alphabets
  * Return: always 0
