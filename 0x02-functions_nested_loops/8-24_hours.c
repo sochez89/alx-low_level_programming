@@ -2,7 +2,9 @@
 
 /**
  * jack_bauer: print every minute of the day starting from 00:00 to 23:59.
- * Return: 0 shows the program ruan succesfully
+ * *
+ * Return: every minute of the day of Jack_Bauer
+ * *
  */
 
 void jack_bauer(void)
