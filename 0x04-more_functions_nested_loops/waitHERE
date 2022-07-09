@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ *print_diagonal - n lines
+ *@n: time diagonal
+ * Return: void
+ */
+
+void print_diagonal(int n)
+{
+	char i, m;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		for (i = 1; i <= n; i++)
+		{
+			for (m = 1; m <= i; m++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
+		}
+	}
+	}
