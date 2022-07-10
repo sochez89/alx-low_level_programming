@@ -10,7 +10,7 @@ int main(void)
 	int n;
 
 	n = '0';
-	for (n <= '9')
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 		if (n != '9')
@@ -18,7 +18,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		putchar('\n');
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
