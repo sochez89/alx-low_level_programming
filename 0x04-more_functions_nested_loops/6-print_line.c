@@ -7,9 +7,9 @@
 
 void print_line(int k)
 {
-	int k = 25;
+	int lines = k;
 
-	while (k <= 25)
+	for (times = n; times > 0; times--)
 	{
 		_putchar('_');
 	}
