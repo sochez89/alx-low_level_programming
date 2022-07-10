@@ -7,25 +7,18 @@
 
 int main(void)
 {
-	int i, j;
+	int i;
 
-	i = '0';
-	j = '0';
-
-	for (i <= '9';)
+	n = '0';
+	for (n <= '9';)
 	{
-		putchar(i);
+		if (n != '9')
+		{
 		putchar(',');
 		putchar(' ');
-		i++;
-		for (j <= 9;)
-		{
-			putchar(ij);
-			putchar(',');
-			putchar(' ');
-			ij++
-
 		}
-		putchar('\n');
+		n++;
 	}
+	putchar('\n);
+	return (0);
 }
