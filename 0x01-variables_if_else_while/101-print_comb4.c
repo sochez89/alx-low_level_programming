@@ -7,20 +7,21 @@
 
 int main(void)
 {
-	int i, j, k;
+	int a, b, c;
 
-	for (i = '0'; i <= '9'; i++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for (j = '0'; j <= '9'; j++)
+		for (b = '0'; b <= '9'; b++)
 		{
-			for (k = '0'; k <= '0'; k++)
+			for (c = '0'; c <= '9'; c++)
 			{
-				if (i < j && j < k)
+				if (a < b && b < c)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(k);
-					if (i != '7')
+					putchar(a);
+					putchar(b);
+					putchar(c);
+
+					if (a != '7')
 					{
 						putchar(',');
 						putchar(' ');
@@ -29,5 +30,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
