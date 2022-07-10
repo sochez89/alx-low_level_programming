@@ -2,16 +2,22 @@
 
 /**
  * print_line -  draw horizontail line
- * @k: Integer
+ * @n: Integer
  */
 
-void print_line(int k)
+void print_line(int n)
 {
-	int lines = k;
 
-	for (times = n; times > 0; times--)
+	if (n <= 0)
 	{
-		_putchar('_');
+		_putchar('\n');
 	}
-	_putchar('\n');
+	else
+	{
+		while (n--)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
 }
