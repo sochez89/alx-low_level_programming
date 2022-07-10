@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * @n: integer 
+ * @n: an integer which is he arguement to be passed to the function 
  * Return: prints from n to 98
  */
 
@@ -24,7 +24,7 @@ void print_to_98(int n)
 		for (; n >= 98; n--)
 		{
 			printf("%d", n);
-			if (n !=98)
+			if (n != 98)
 			{
 				printf(", ");
 			}
