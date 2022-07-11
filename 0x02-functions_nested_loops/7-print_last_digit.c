@@ -3,17 +3,21 @@
 /**
  * print_last_digit - print last digit of a number
  * @m: an integer
- * Return: return last digit
+ *Return: return last digit
  */
 
 int print_last_digit(int m)
 {
-	m = m % 10;
+	int n;
 
-	if (m < 10)
+	n = m % 10;
+	if (m < 10 && m >= -9)
 	{
-		m *= -1;
+		_putchar(m);
 	}
-	_putchar('0' + (m % 10));
-	return (m % 10);
+	else
+	{
+		_putchar(n);
+	}
+	return (n);
 }
