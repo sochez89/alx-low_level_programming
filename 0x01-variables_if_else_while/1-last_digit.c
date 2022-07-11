@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  *  main - print random numbers
  *  Return: Always 0 Unles error occurs
