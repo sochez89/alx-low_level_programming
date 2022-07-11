@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * @n: an integer which is he arguement to be passed to the function 
+ * print_to_98 - an integer which is he arguement to be passed to the function
+ * @n: integer
  * Return: prints from n to 98
  */
 
