@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate two strings using at maximum
+ * _strncat - concatenate two strings using at maximum
  * an inputted number of bytes from src
  * @dest: pointer destination
  * @src: pointer source
@@ -9,7 +9,7 @@
  * Return: return pointer to the new string
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int index = 0, dest_len = 0;
 
