@@ -3,31 +3,28 @@
 
 /**
  * *str_concat - function that concatenates two strings
- * @*s1: first string
- * @*s2: second string
+ * @s1: input pointer of the first string
+ * @s2: input pointer of the second string
  * Return: returns the pointer to the newly allocated space
  */
 
 char *str_concat(char *s1, char *s2)
 {
 	char *new_str, *str1, *str2;
-	int i = 0, len1 = 0, len2 =0;
+	int i = 0, len1 = 0, len2 = 0;
+
 	str1 = s1;
 	str2 = s2;
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
 	while (*s1)
 	{
 		len1++;
 		str1++;
 	}
-	s1 =str1;
+	s1 = str1;
 	if (s2 == NULL)
-	{
 		s2 = "";
-	}
 	while (*s2)
 	{
 		len2++;
@@ -53,5 +50,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	new_str[i] = '\0';
 	return (str1);
-
 }
