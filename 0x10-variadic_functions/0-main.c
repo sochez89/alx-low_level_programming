@@ -9,6 +9,7 @@
 int main(void)
 {
     int sum;
+ int sum_them_all(const unsigned int n, ...);
 
     sum = sum_them_all(2, 98, 1024);
     printf("%d\n", sum);
