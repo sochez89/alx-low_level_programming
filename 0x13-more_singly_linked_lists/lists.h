@@ -1,6 +1,9 @@
 #ifndef LISTS_H
 #define LISTS_H
-
+#ifndef MORE_SINGLY_LINKED_LIST_H
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
